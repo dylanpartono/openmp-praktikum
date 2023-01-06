@@ -1,0 +1,3 @@
+C:/Users/dylan/Documents/B.Sc. Informatik/WS 2022-2023/SPP/SPP_OpenMP_Praktikum1_Gruppe_8/SPP_OpenMP_practical_v2/code_task/cmake-build-debug/CMakeFiles/code_task.dir
+C:/Users/dylan/Documents/B.Sc. Informatik/WS 2022-2023/SPP/SPP_OpenMP_Praktikum1_Gruppe_8/SPP_OpenMP_practical_v2/code_task/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dylan/Documents/B.Sc. Informatik/WS 2022-2023/SPP/SPP_OpenMP_Praktikum1_Gruppe_8/SPP_OpenMP_practical_v2/code_task/cmake-build-debug/CMakeFiles/rebuild_cache.dir

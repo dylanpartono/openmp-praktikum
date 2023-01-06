@@ -1,0 +1,43 @@
+[1;37m[R][0m Executed command: 'scontrol -dd show job 33992720'
+---
+[1;37mJobId=33992720[0m ArrayJobId=33992583 ArrayTaskId=4 ArrayTaskThrottle=1 JobName=nbody_par_case_z
+   UserId=ys49dara(957633427) GroupId=ys49dara(957633427) MCS_label=N/A
+   Priority=113793 Nice=0 [1;35mAccount=kurs00062[0m QOS=normal
+   [1;36mJobState=RUNNING[0m Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:00:12 [1;33mTimeLimit=00:10:00[0m TimeMin=N/A
+   SubmitTime=2022-12-14T21:50:48 EligibleTime=2022-12-14T21:58:44
+   AccrueTime=2022-12-14T21:50:48
+   StartTime=2022-12-14T21:58:44 EndTime=2022-12-14T22:08:44 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2022-12-14T21:58:44 Scheduler=Main
+   Partition=kurs00062 AllocNode:Sid=logc0007:2783922
+   ReqNodeList=(null) ExcNodeList=(null)
+   [1;36mNodeList=mpsc0021[0m
+   BatchHost=mpsc0021
+   [1;31mReqCores=16[0m [1;32mReqMemCore=10M[0m
+   NumNodes=1 NumCPUs=16 NumTasks=1 CPUs/Task=16 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=16,mem=160G,node=1,billing=16
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=(null)
+     Nodes=mpsc0021 CPU_IDs=0-15 Mem=163840 GRES=
+   MinCPUsNode=16 MinMemoryCPU=10G MinTmpDiskNode=0
+   [1;34mFeatures=(null)[0m DelayBoot=00:00:00
+   Reservation=kurs00062
+   OverSubscribe=USER Contiguous=0 Licenses=(null) Network=(null)
+   Command=/work/home/kurse/kurs00062/ys49dara/nbody_par_case_z.sh
+   WorkDir=/work/home/kurse/kurs00062/ys49dara
+   AdminComment=
+
+[I] Possible CPU types    = (not limited)
+ 
+   StdErr=/home/kurse/kurs00062/ys49dara/ParallelNBody/nbody_case_z_par.err.4
+   StdIn=/dev/null
+   StdOut=/home/kurse/kurs00062/ys49dara/ParallelNBody/nbody_case_z_par.out.4
+   Power=
+   MailUser=ys49dara MailType=INVALID_DEPEND,BEGIN,END,FAIL,REQUEUE,STAGE_OUT
+   
+
+In 'main' (51): With OpenMP support compiled. Max. # threads: 16
+Initializing data success
+Time for simulation: 0.794276s

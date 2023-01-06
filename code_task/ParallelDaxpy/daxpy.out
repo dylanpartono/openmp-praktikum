@@ -1,0 +1,6 @@
+Number of Threads: 1
+Serial daxpy: 0.570047s.
+Parallel daxpy: 0.814597s.
+Vectors too long to print.
+Vectors too long to print.
+Correctness test passed.

@@ -1,0 +1,46 @@
+[1;37m[R][0m Executed command: 'scontrol -dd show job 33837697'
+---
+[1;37mJobId=33837697[0m ArrayJobId=33837695 ArrayTaskId=2 ArrayTaskThrottle=1 JobName=daxpy_job_array
+   UserId=ys49dara(957633427) GroupId=ys49dara(957633427) MCS_label=N/A
+   Priority=125846 Nice=0 [1;35mAccount=kurs00062[0m QOS=normal
+   [1;36mJobState=RUNNING[0m Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:00:11 [1;33mTimeLimit=00:10:00[0m TimeMin=N/A
+   SubmitTime=2022-12-05T20:05:53 EligibleTime=2022-12-05T20:06:19
+   AccrueTime=2022-12-05T20:05:54
+   StartTime=2022-12-05T20:06:19 EndTime=2022-12-05T20:16:19 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2022-12-05T20:06:19 Scheduler=Main
+   Partition=kurs00062 AllocNode:Sid=logc0005:2655584
+   ReqNodeList=(null) ExcNodeList=(null)
+   [1;36mNodeList=mpsc0021[0m
+   BatchHost=mpsc0021
+   [1;31mReqCores=16[0m [1;32mReqMemCore=10M[0m
+   NumNodes=1 NumCPUs=16 NumTasks=1 CPUs/Task=16 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=16,mem=160G,node=1,billing=16
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=(null)
+     Nodes=mpsc0021 CPU_IDs=0-15 Mem=163840 GRES=
+   MinCPUsNode=16 MinMemoryCPU=10G MinTmpDiskNode=0
+   [1;34mFeatures=(null)[0m DelayBoot=00:00:00
+   Reservation=kurs00062
+   OverSubscribe=USER Contiguous=0 Licenses=(null) Network=(null)
+   Command=/work/home/kurse/kurs00062/ys49dara/daxpy_job_script_array.sh
+   WorkDir=/work/home/kurse/kurs00062/ys49dara
+   AdminComment=
+
+[I] Possible CPU types    = (not limited)
+ 
+   StdErr=/work/home/kurse/kurs00062/ys49dara/daxpy.err.2
+   StdIn=/dev/null
+   StdOut=/work/home/kurse/kurs00062/ys49dara/daxpy.out.2
+   Power=
+   MailUser=ys49dara MailType=INVALID_DEPEND,BEGIN,END,FAIL,REQUEUE,STAGE_OUT
+   
+
+Number of Threads: 2
+Serial daxpy: 0.570056s.
+Parallel daxpy: 0.283148s.
+Vectors too long to print.
+Vectors too long to print.
+Correctness test passed.
